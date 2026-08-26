@@ -6,3 +6,10 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# Local working files / generated artifacts
+claude_files/
+eventhub/
+*.pdf
+*.docx
+~$*
