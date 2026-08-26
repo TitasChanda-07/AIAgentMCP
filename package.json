@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test"
+    "test": "node run-summary.js",
+    "test:headed": "node run-summary.js --headed"
   },
   "keywords": [],
   "author": "",
@@ -11,6 +12,7 @@
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.62.1",
-    "@types/node": "^26.3.0"
+    "@types/node": "^26.3.0",
+    "docx": "^9.7.1"
   }
 }
